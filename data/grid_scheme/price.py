@@ -36,8 +36,6 @@ class CLMMPositionManagerConfig(BaseClientModel):
         "prompt": "Quote token amount to add to position (0 for base only)", "prompt_on_new": True})
     out_of_range_pct: Decimal = Field(Decimal("1.0"), json_schema_extra={
         "prompt": "Percentage outside range that triggers closing (e.g. 1.0 for 1%)", "prompt_on_new": True})
-    out_of_range_secs: int = Field(300, json_schema_extra={
-        "prompt": "Seconds price must be out of range before closing (e.g. 300 for 5 min)", "prompt_on_new": True})
 
 
 class CLMMPositionManager(ScriptStrategyBase):
