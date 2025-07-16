@@ -1,27 +1,44 @@
-# Solarus trading bot☀️
+# Synapse trading bot🌀
 [![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+pB6j65Kv7cdjZmU0)
 
-<img width="494" height="115" alt="image" src="https://github.com/user-attachments/assets/a6f5b562-4b04-4f25-a17c-9d29ca57b540" />
+<img width="484" height="118" alt="image" src="https://github.com/user-attachments/assets/87a4f93a-1d8d-4aba-86f6-6a2ce2b18ebf" />
+
+
 
 # Descritpiton
-**Solarus is an open-source intelligent trading bot designed to generate trading signals by leveraging live market data, social media sentiment, and historical patterns. It features multiple modes of operation, backtesting, an AI-powered engine, and seamless integration with Telegram for real-time monitoring and control.**
+**Synapse is an open-source intelligent trading bot designed to generate trading signals by leveraging live market data, social media sentiment, and historical patterns. It features multiple modes of operation, backtesting, an AI-powered engine, and seamless integration with Telegram for real-time monitoring and control.**
 
 # Main Features
 - Automatically generates trading signals based on real-time market conditions, executes buy/sell orders using those signals(optional), and sets optimal stop-loss and take-profit levels.
 - Backtesting Support: Simulate your own or the bot’s trading strategy on historical market data to evaluate performance, fine-tune parameters, and optimize results—without risking real capital.
-- Self-Training: Solarus continuously learns from the user’s trading results, adapting its strategies and enhancing its overall intelligence over time. With each update, we also train Solarus.
-- **Your** Strategy Optimization: Solarus analyzes your custom trading strategy using machine learning and market data, then suggests targeted improvements.
+- Self-Training: Synapse continuously learns from the user’s trading results, adapting its strategies and enhancing its overall intelligence over time. With each update, we also train Synapse.
+- **Your** Strategy Optimization: Synapse analyzes your custom trading strategy using machine learning and market data, then suggests targeted improvements.
 - Simple Interface and configuration: Intuitive control via Telegram bot or web UI.
 - Manual mode: Snipe selected tokens at optimal price , define preferred stop-loss and take-profit levels, and apply their own custom trading strategies for complete control and precision.
 - Notifications: The bot keeps you informed throughout the trading process with real-time updates via Telegram.
-- Price-predicton: Solarus forecasts individual token prices by analyzing current market trends, the Fear and Greed Index, and historical price patterns.
-- Financial Management: Solarus monitors your overall trading performance, tracking cumulative profit and loss in real time. Before initiating any trade, it alerts you to potential risks.
+- Price-predicton: Synapse forecasts individual token prices by analyzing current market trends, the Fear and Greed Index, and historical price patterns.
+- Financial Management: Synapse monitors your overall trading performance, tracking cumulative profit and loss in real time. Before initiating any trade, it alerts you to potential risks.
 
 
 # Supported exchanges📊
 <div align="center">
-<img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/fccfee8d-363f-4899-a11f-b1a5e762077c" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/98e2a287-a0e3-4879-ba8c-228071aedc5d" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/cdd71c2d-e631-4e35-b2ee-2a9523299448" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/3fc9045c-bcb1-4b46-855c-46ae3e0a62de" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/9c6ac09d-5cd0-45cf-bec1-6e0f22939436" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/174a6f5c-3f27-4c51-9b67-1e31afd88848" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/79c87fa6-2054-455b-ac09-b9081b49b0c7" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/ea1a462e-538b-4c92-95b2-a412da06b133" />
-<img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/93ba8805-b125-427a-8efe-d4a6b7c3f3f6" /> <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/1cb29c49-1d49-429d-855c-62689fdf59d6" /> <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/adaad38c-7eeb-464c-a4d4-bf9c654959aa" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/7ef99064-fb16-460a-8e8d-4e1169658f8e" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/a454dbbe-36ac-4543-b6f2-eca98f5a1b7f" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/443423fc-4aa1-49ac-aad9-066fe22f9a2c" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/63c15d29-45ea-41a4-a21c-51a7ce543245" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/79d3870a-dc39-446e-8970-f7090372479a" />  
+<img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/90d8ca5a-71d8-404d-80a4-578e1efe2db9" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/900cb4eb-8d14-4b51-97b1-3c515ea60141" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/cdc3f7ef-6ad4-423c-b0bc-8669761774db" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/faec88fc-4946-48e7-b98f-157e2234e7f8" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/0f836b8b-5f4b-4ddb-a1d2-7318d883d51f" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/29df4163-dd45-42ff-96dc-aec0e5d1788a" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/8c1e6327-f80d-42a7-a918-5fd5c4daf441" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/f4008a15-a371-4bc5-9ca0-95839eb2afbf" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/eaafbfe9-1359-4068-a321-b4d982739edf" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/492b1317-cbdf-4a17-b67e-eebbe47a4315" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/31fbf32d-dfbb-4bd8-b10d-782c6fc3a74f" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/9b61064c-e4a7-4458-9331-c04c746cf5b8" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/c9b41a39-344d-4163-84b5-d281c1c5c9a2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/b21dddf6-5787-4da0-a2d9-440e91f71dd2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/73741faf-0aa5-4967-bbea-ec101da6b9d2" />  <img width="120" height="100" alt="image" src="https://github.com/user-attachments/assets/2af7c9c2-5bf1-4770-accd-785e87c1fb51" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  </div>
 
 # Installation 
@@ -33,23 +50,23 @@
 
 **To install the bot, follow the steps below**:
 ```shell
-git clone https://github.com/braindotcode/solarus-trading-bot
-cd solarus-trading bot
+git clone https://github.com/NotoriusBe/synapse-trading-bot
+cd synapse-trading-bot
 run.bat
 ```
  **OR**
  ```shell
-git clone https://github.com/braindotcode/solarus-trading-bot
-cd solarus-trading bot
+git clone https://github.com/NotoriusBe/synapse-trading-bot
+cd synapse-trading-bot
 pip install -r requirements.txt
 python bot.py
 ```
-To connect Solarus to telegram bot:
+To connect Synapse to telegram bot:
 1. Put your bot token and chat id in **config.json**
 2.
  ```shell
-cd solarus-trading bot
-python solarus.py --telegram
+cd synapse-trading bot
+python synapse.py --telegram
 ```
 3. To control the bot via Telegram use RPC commands:
 
