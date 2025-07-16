@@ -1,12 +1,29 @@
----
 services:
-  freqtrade:
-    image: freqtradeorg/freqtrade:stable
-    # image: freqtradeorg/freqtrade:develop
+  symapsebot:
+    container_name: synapsebot
+    image: synapsebot/synapsebot:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./conf:/home/synapseb/conf
+      - ./conf/strategy:/home/synapse/strategy
+      - ./conf/controllers:/home/synapsebot/conf/controllers
+      - ./conf/scripts:/home/synapsebot/conf/scripts
+      - ./data:/home/synapsebot/data
+      - ./controllers:/home/synapsebot/controllers
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+    tty: true
+    stdin_open: true
+    network_mode: host
+    image: synapsetradeorg/synapsetrade:stable
+    # image: synapsetradeorg/synapsetrade:develop
     # Use plotting image
-    # image: freqtradeorg/freqtrade:develop_plot
-    # # Enable GPU Image and GPU Resources (only relevant for freqAI)
-    # # Make sure to uncomment the whole deploy section
+    # image: synapsetradeorg/synapsetrade:develop_plot
     # deploy:
     #   resources:
     #     reservations:
@@ -19,18 +36,8 @@ services:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
     restart: unless-stopped
-    container_name: freqtrade
+    container_name: synapsetrade
     volumes:
-      - "./user_data:/freqtrade/user_data"
-    # Expose api on port 8080 (localhost only)
-    # Please read the https://www.freqtrade.io/en/stable/rest-api/ documentation
-    # for more information.
+      - "./user_data:/synapsetrade/user_data"
     ports:
       - "127.0.0.1:8080:8080"
-    # Default command used when running `docker compose up`
-    command: >
-      trade
-      --logfile /freqtrade/user_data/logs/freqtrade.log
-      --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
-      --config /freqtrade/user_data/config.json
-      --strategy SampleStrategy
