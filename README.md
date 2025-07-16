@@ -75,7 +75,7 @@ To connect Synapse to telegram bot:
 2.
  ```shell
 cd synapse-trading bot
-python synapse.py --telegram
+python bot.py --telegram
 ```
 3. To control the bot via Telegram use RPC commands:
 
