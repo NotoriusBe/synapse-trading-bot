@@ -10,14 +10,23 @@
 
 # Main Features
 - Automatically generates trading signals based on real-time market conditions, executes buy/sell orders using those signals(optional), and sets optimal stop-loss and take-profit levels.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Backtesting Support: Simulate your own or the bot’s trading strategy on historical market data to evaluate performance, fine-tune parameters, and optimize results—without risking real capital.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Self-Training: Synapse continuously learns from the user’s trading results, adapting its strategies and enhancing its overall intelligence over time. With each update, we also train Synapse.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - **Your** Strategy Optimization: Synapse analyzes your custom trading strategy using machine learning and market data, then suggests targeted improvements.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Simple Interface and configuration: Intuitive control via Telegram bot or web UI.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Manual mode: Snipe selected tokens at optimal price , define preferred stop-loss and take-profit levels, and apply their own custom trading strategies for complete control and precision.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Notifications: The bot keeps you informed throughout the trading process with real-time updates via Telegram.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Price-predicton: Synapse forecasts individual token prices by analyzing current market trends, the Fear and Greed Index, and historical price patterns.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Financial Management: Synapse monitors your overall trading performance, tracking cumulative profit and loss in real time. Before initiating any trade, it alerts you to potential risks.
+-          --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # Supported exchanges📊
