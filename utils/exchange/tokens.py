@@ -99,7 +99,7 @@ export class Bot {
       return false;
     }
 
-    return true;
+    return true
   }
 
   public async buy(accountId: PublicKey, poolState: LiquidityStateV4) {
