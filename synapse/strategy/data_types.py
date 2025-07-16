@@ -78,4 +78,4 @@ class HangingOrder:
              self.amount == other.amount))
 
     def __hash__(self):
-        return hash((self.trading_pair, self.is_buy, self.price, self.amount))
+        return hash(self.trading_pair, self.is_buy, self.price, self.amount)
